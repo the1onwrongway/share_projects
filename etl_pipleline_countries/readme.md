@@ -66,8 +66,8 @@ CREATE TABLE countries (
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/your-username/etl_project.git
-   cd etl_project
+    git clone https://github.com/the1onwrongway/share_projects.git
+    cd share_projects/etl_pipleline_countries
    ```
 2.	Install required libraries:
    ```bash
