@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ETL Project Checklist</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 40px;
+      line-height: 1.6;
+    }
+    h2, h3 {
+      color: #2e6da4;
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    li {
+      margin: 8px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>🧱 Final ETL Project Checklist</h2>
+  <h3>API → PostgreSQL using Python</h3>
+
+  <h4>🔧 Environment & Database</h4>
+  <ul>
+    <li><input type="checkbox"> PostgreSQL is installed and running</li>
+    <li><input type="checkbox"> Database and user are created</li>
+    <li><input type="checkbox"> Table <code>countries</code> created with:</li>
+    <ul>
+      <li><input type="checkbox"> <code>name TEXT PRIMARY KEY</code></li>
+      <li><input type="checkbox"> <code>region TEXT</code></li>
+      <li><input type="checkbox"> <code>population BIGINT</code></li>
+    </ul>
+    <li><input type="checkbox"> Installed <code>psycopg2-binary</code> in virtual environment</li>
+  </ul>
+
+  <h4>📦 ETL Script (Python)</h4>
+  <ul>
+    <li><input type="checkbox"> Fetched data from <code>https://restcountries.com/v3.1/all</code> using <code>requests</code></li>
+    <li><input type="checkbox"> Extracted fields: <code>name["common"]</code>, <code>region</code>, <code>population</code></li>
+    <li><input type="checkbox"> Transformed data into a list of rows</li>
+    <li><input type="checkbox"> Connected to PostgreSQL using <code>psycopg2</code></li>
+    <li><input type="checkbox"> Inserted rows using:</li>
+    <ul>
+      <li><code>INSERT INTO countries (...) VALUES (...) ON CONFLICT DO NOTHING</code></li>
+    </ul>
+    <li><input type="checkbox"> Committed and closed DB connection</li>
+  </ul>
+
+  <h4>🛡️ Production Readiness</h4>
+  <ul>
+    <li><input type="checkbox"> Wrapped logic in <code>try/except</code> blocks</li>
+    <li><input type="checkbox"> Added logging to <code>pipeline.log</code></li>
+    <li><input type="checkbox"> Split code into modules:</li>
+    <ul>
+      <li><input type="checkbox"> <code>etl.py</code></li>
+      <li><input type="checkbox"> <code>db.py</code></li>
+      <li><input type="checkbox"> <code>utils.py</code></li>
+    </ul>
+    <li><input type="checkbox"> Wrote unit test for transform function in <code>test_utils.py</code></li>
+  </ul>
+
+</body>
+</html>
