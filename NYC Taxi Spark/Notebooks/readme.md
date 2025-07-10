@@ -6,7 +6,6 @@ This project demonstrates a complete **batch data engineering pipeline** using A
 
 > ✅ Currently Completed: Week 1 & Week 2  
 > 🔜 Next: Automating with AWS & Databricks Jobs (Week 3–4)
-> Dashborad: https://dbc-b9df4b41-3fc1.cloud.databricks.com/dashboardsv3/01f05d58d53b16a493bcb79f5a2bbe8d/published?o=3150088754748561
 ---
 
 ## 🧱 Stack Used
@@ -70,7 +69,7 @@ This project demonstrates a complete **batch data engineering pipeline** using A
   ```
 
 ### 📈 Dashboard Created:
-> 💡 Interactive dashboard on Databricks with:
+>  ✅ [**Live Databricks Dashboard →** View Here](https://dbc-b9df4b41-3fc1.cloud.databricks.com/dashboardsv3/01f05d58d53b16a493bcb79f5a2bbe8d/published?o=3150088754748561)
 > - Hourly tipping behaviour
 > - Top 10 pickup zones by trip count
 
