@@ -6,3 +6,7 @@ DEST = "sample_100k.csv"
 df = pd.read_csv(SRC, nrows=100000)
 df.to_csv(DEST, index=False)
 print("Wrote", DEST)
+
+
+
+
