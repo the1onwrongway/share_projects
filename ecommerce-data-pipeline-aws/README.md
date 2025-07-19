@@ -87,7 +87,7 @@ Built in **Amazon QuickSight**, this dashboard presents key business insights:
 
 ## 📸 Dashboard Preview
 
-> A screenshot or PDF version of the dashboard is available [here](/Dashboard.pdf).
+> PDF version of the dashboard is available [here](/https://github.com/the1onwrongway/share_projects/blob/main/ecommerce-data-pipeline-aws/Dashboard.pdf).
 
 ---
 
