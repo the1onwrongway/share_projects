@@ -1,1 +1,6 @@
 pandas
+awsglue.context
+awsglue.utils
+awsglue.job
+pyspark.context
+pyspark.sql.functions
